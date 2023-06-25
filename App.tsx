@@ -7,9 +7,10 @@
 
 import React from "react";
 import Welcome from "./screens/Welcome";
+import RootStack from "./navigators/RootStack";
 
 function App(): JSX.Element {
-  return <Welcome />;
+  return <RootStack />;
 }
 
 export default App;
